@@ -1,6 +1,6 @@
 //console.log('o console funcionou corretamente') //pressionar F8 depois de instalar o node.js exec
 
-var vel = 59.5
+var vel = 59.4
 console.log(`A velocidade do seu carro é ${vel} km/h`)
 
 if (vel > 60){ //condição simples

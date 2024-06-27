@@ -41,7 +41,7 @@ sun.scale.set(5, 5, 5);
 scene.add(sun);
 
 // Ramo da terra
-const earthOrbit = new THREE.Group(); // nó 'pai'
+const earthOrbit = new THREE.Group(); // nó 'pai'.
 updatable.push(registerAnimationTick(earthOrbit, 360 / 120));
 scene.add(earthOrbit);
 

@@ -1,4 +1,4 @@
-var pais = 'BR'
+var pais = 'FR'
 
 console.log(`Vivendo em ${pais}:`)
 
