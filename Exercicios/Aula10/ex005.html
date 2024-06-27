@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+</head>
+    <style>
+        body{
+            background: rgb(87, 79, 158);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a Usar o <strong>DOM</strong> em JavaScript</p>
+    <div id='msg'> Clique em mim</div>
+    <script>
+        //maneira de selecionar elementos do html no JS.
+        var p1 = window.document.getElementsByTagName('p')[0] //primeiro paragrafo, segundo [1]
+        var d = window.document.getElementById('msg')
+
+       /* d.style.background = 'green'
+        p1.style.color = 'black'
+        //window.document.write(p1.innerText)
+        document.write(p1.innerHTML)
+        d.innerText = 'Estou aguardando...'*/
+
+        var d2 = window.document.querySelector('div#msg')
+        d2.style.color = 'black'
+        
+        
+        
+
+
+
+    </script>
+</body>
+</html>
